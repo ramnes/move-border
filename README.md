@@ -1,7 +1,7 @@
-move-border.el
-==============
+move-border
+===========
 
-`move-border.el` provides functions for resizing Emacs windows, considering the
+Move-border provides functions for resizing Emacs windows, considering the
 current window border instead of the window itself.
 
 So, by binding your keys to `move-border-up`, `move-border-down`,
