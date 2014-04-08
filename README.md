@@ -10,7 +10,7 @@ more intuitively than if you were using `shrink-window`, `enlarge-window`,
 `shrink-window-horizontally` and `enlarge-window-horizontally`.
 
 ```lisp
-;; example key bindinds
+;; example key bindings
 (global-set-key (kbd "M-S-<up>") 'move-border-up)
 (global-set-key (kbd "M-S-<down>") 'move-border-down)
 (global-set-key (kbd "M-S-<left>") 'move-border-left)
