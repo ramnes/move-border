@@ -10,7 +10,7 @@
   (let ((left-edge (nth 0 (window-edges))))
     (if (xor (= left-edge 0) dir)
         (shrink-window arg t)
-        (enlarge-window arg t))))
+      (enlarge-window arg t))))
 
 (defun move-border-up-or-down (arg dir)
   "General function covering move-border-up and move-border-down. If DIR is
@@ -20,7 +20,7 @@
   (let ((top-edge (nth 1 (window-edges))))
     (if (xor (= top-edge 0) dir)
         (shrink-window arg nil)
-        (enlarge-window arg nil))))
+      (enlarge-window arg nil))))
 
 (defun move-border-left (arg)
   (interactive "P")
